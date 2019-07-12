@@ -2,7 +2,7 @@ import Foundation
 
 /// Checkout API Client
 /// used to call the api endpoint of Checkout API available with your public key
-public class CheckoutAPIClient {
+public class CheckoutAPIClient: NSObject {
 
     // MARK: - Properties
 

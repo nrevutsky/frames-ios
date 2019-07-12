@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3DBA9C49D2A79CD6A293669E /* Pods_FramesIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F610F14FD7C3059AACD17BF7 /* Pods_FramesIos.framework */; };
+		78CD8C4F22D8D04A00C450AE /* PaymentFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD8C4E22D8D04A00C450AE /* PaymentFormController.swift */; };
+		78CD8C5122D8D49800C450AE /* PaymentFormControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD8C5022D8D49800C450AE /* PaymentFormControllerDelegate.swift */; };
 		C05921A046069B80E37C8799 /* Pods_FramesIosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960B3E65C846C45B1B539F24 /* Pods_FramesIosTests.framework */; };
 		E602EE79209D857900CC62A2 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E602EE78209D857900CC62A2 /* Alamofire.swift */; };
 		E602EE7B209D85E200CC62A2 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E602EE7A209D85E200CC62A2 /* AFError.swift */; };
@@ -177,6 +179,8 @@
 /* Begin PBXFileReference section */
 		3370A09BC52FB4744D61DE9C /* Pods-FramesIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FramesIos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FramesIos/Pods-FramesIos.debug.xcconfig"; sourceTree = "<group>"; };
 		6268AF6F3674C5D4B9AB1E4C /* Pods-FramesIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FramesIos.release.xcconfig"; path = "Pods/Target Support Files/Pods-FramesIos/Pods-FramesIos.release.xcconfig"; sourceTree = "<group>"; };
+		78CD8C4E22D8D04A00C450AE /* PaymentFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFormController.swift; sourceTree = "<group>"; };
+		78CD8C5022D8D49800C450AE /* PaymentFormControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFormControllerDelegate.swift; sourceTree = "<group>"; };
 		7A05DCA3DA23A5B90A28088B /* Pods-FramesIosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FramesIosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FramesIosTests/Pods-FramesIosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DBAC9EA5BF3D8D794691344 /* Pods-FramesIosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FramesIosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FramesIosTests/Pods-FramesIosTests.release.xcconfig"; sourceTree = "<group>"; };
 		960B3E65C846C45B1B539F24 /* Pods_FramesIosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FramesIosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -509,6 +513,8 @@
 				E6AF0A1320AADE6F00D29929 /* Resources */,
 				E6640709208A07A6000431E5 /* Supporting Files */,
 				E631CB7D2098B5A800023472 /* UI */,
+				78CD8C4E22D8D04A00C450AE /* PaymentFormController.swift */,
+				78CD8C5022D8D49800C450AE /* PaymentFormControllerDelegate.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -964,6 +970,7 @@
 				E664701720CED6F100D8353A /* MetadataTypes.swift in Sources */,
 				E602EE97209D871D00CC62A2 /* Timeline.swift in Sources */,
 				E664702120CED6F100D8353A /* RegexManager.swift in Sources */,
+				78CD8C5122D8D49800C450AE /* PaymentFormControllerDelegate.swift in Sources */,
 				E632AAB520B4567C00D2B9B6 /* UIViewControllerExtensions.swift in Sources */,
 				E6DC28FE20A1E0E7009FA38B /* UIViewExtensions.swift in Sources */,
 				E664701C20CED6F100D8353A /* PhoneNumberKit.swift in Sources */,
@@ -991,6 +998,7 @@
 				E625EE53208F905E0019B750 /* Environment.swift in Sources */,
 				E67AB996208E1CF100593FBE /* CardProviderResponse.swift in Sources */,
 				E664702020CED6F100D8353A /* TextField.swift in Sources */,
+				78CD8C4F22D8D04A00C450AE /* PaymentFormController.swift in Sources */,
 				E631CB812098B5D900023472 /* ExpirationDatePickerDelegate.swift in Sources */,
 				E61101A720C98B83000BB9F4 /* AddressView.swift in Sources */,
 				E653FEFE20C58FA9002E4790 /* SimpleLoadingViewController.swift in Sources */,
